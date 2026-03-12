@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>博麟株式会社 | HAKURIN</title>
+  <meta name="description" content="博麟株式会社以京都地区为中心，提供民宿与住宿设施的运营支持、清扫管理、客人对应、销售优化与本地实务执行。" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">
+        <span class="brand-cn">博麟株式会社</span>
+        <span class="brand-en">HAKURIN</span>
+      </a>
+
+      <nav class="nav desktop-nav">
+        <a href="#about" data-i18n="navAbout">公司介绍</a>
+        <a href="#services" data-i18n="navServices">服务内容</a>
+        <a href="#properties" data-i18n="navProperties">运营实例</a>
+        <a href="#flow" data-i18n="navFlow">合作流程</a>
+        <a href="#company" data-i18n="navCompany">公司信息</a>
+        <a href="#contact" data-i18n="navContact">联系我们</a>
+      </nav>
+
+      <div class="lang-switch">
+        <span class="lang-label" data-i18n="languageLabel">语言</span>
+        <button class="lang-btn active" data-lang="zh">中文</button>
+        <button class="lang-btn" data-lang="ja">日本語</button>
+        <button class="lang-btn" data-lang="en">English</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container two-col">
+      <div class="hero-copy">
+        <div class="badge" data-i18n="badge">KYOTO STAY MANAGEMENT</div>
+        <h1 class="hero-title" data-i18n="heroTitle">精研京都，匠心润宿，
+成就资产价值。</h1>
+        <p class="hero-text" data-i18n="heroText">博麟株式会社以京都地区为中心，提供民宿与住宿设施的运营支持、清扫管理、客人对应、销售优化与本地实务执行。我们重视长期运营价值，协助业主打造更稳定、更值得信赖的住宿品牌。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact" data-i18n="primaryBtn">免费咨询</a>
+          <a class="btn btn-secondary" href="#services" data-i18n="secondaryBtn">查看服务</a>
+        </div>
+      </div>
+
+      <div class="hero-panel card card-large">
+        <div class="hero-panel-top">
+          <div class="hero-panel-brand">HAKURIN</div>
+          <div class="hero-panel-title" data-i18n="coverageTitle">对应内容</div>
+          <div id="coverageList" class="coverage-list"></div>
+        </div>
+        <div class="info-grid">
+          <div class="info-box">
+            <div class="info-box-title">Kyoto</div>
+            <div class="info-box-text">Local operational support</div>
+          </div>
+          <div class="info-box">
+            <div class="info-box-title">3 Languages</div>
+            <div class="info-box-text">中文 / 日本語 / English</div>
+          </div>
+          <div class="info-box">
+            <div class="info-box-title">Stay Management</div>
+            <div class="info-box-text">Website and operational presentation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-label" data-i18n="aboutLabel">ABOUT</div>
+        <h2 class="section-title" data-i18n="aboutTitle">公司介绍</h2>
+        <div class="about-grid">
+          <div></div>
+          <div class="about-copy">
+            <p data-i18n="aboutP1">博麟株式会社是一家为京都住宿设施提供综合运营实务支持的公司。除了协助获取预订之外，我们也重视本地对应、清扫品质、评价改善与住客满意度提升，从整体运营角度提出更合适的方案。</p>
+            <p data-i18n="aboutP2">无论是第一次开始住宿事业的业主，还是希望重新梳理现有设施运营方式的经营者，我们都可以根据实际情况提供清晰且易于执行的支持。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <div class="section-label" data-i18n="servicesLabel">SERVICES</div>
+        <h2 class="section-title" data-i18n="servicesTitle">服务内容</h2>
+        <div id="servicesGrid" class="card-grid three"></div>
+      </div>
+    </section>
+
+    <section id="strengths" class="section">
+      <div class="container">
+        <div class="section-label" data-i18n="strengthsLabel">OUR STRENGTHS</div>
+        <h2 class="section-title" data-i18n="strengthsTitle">博麟株式会社的优势</h2>
+        <div id="strengthsGrid" class="card-grid three"></div>
+      </div>
+    </section>
+
+    <section id="properties" class="section section-alt">
+      <div class="container">
+        <div class="section-label" data-i18n="propertiesLabel">PROPERTIES</div>
+        <h2 class="section-title" data-i18n="propertiesTitle">运营 / 支持物件示例</h2>
+        <div id="propertyGrid" class="property-grid"></div>
+        <p class="section-note" data-i18n="propertiesConnectedNote">目前已先接入 4 个 Airbnb 跳转链接，并已使用真实封面图。</p>
+      </div>
+    </section>
+
+    <section id="flow" class="section">
+      <div class="container">
+        <div class="section-label" data-i18n="flowLabel">FLOW</div>
+        <h2 class="section-title" data-i18n="flowTitle">从咨询到开始运营</h2>
+        <div id="flowGrid" class="card-grid four"></div>
+      </div>
+    </section>
+
+    <section id="company" class="section section-alt">
+      <div class="container company-layout">
+        <div>
+          <div class="section-label" data-i18n="companyLabel">COMPANY</div>
+          <h2 class="section-title" data-i18n="companyTitle">公司信息</h2>
+          <div id="companyRows" class="company-rows card"></div>
+        </div>
+
+        <div id="contact" class="contact-card">
+          <div class="section-label light" data-i18n="contactLabel">CONTACT</div>
+          <h2 class="contact-title" data-i18n="contactTitle">联系我们</h2>
+          <p class="contact-text" data-i18n="contactText">感谢您浏览本网站。如需咨询公司官网制作、住宿运营支持，或希望加入中文、日语、英文三语页面，欢迎联系我们。</p>
+          <div class="contact-box">
+            <div class="contact-row">
+              <div class="contact-row-label" data-i18n="emailLabel">邮箱</div>
+              <div id="contactEmail">Hakurinkyoto@icloud.com</div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-row-label" data-i18n="phoneLabel">电话</div>
+              <div id="contactPhone">090-5665-5659</div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-row-label" data-i18n="areaLabel">对应区域</div>
+              <div id="contactArea" data-i18n="areaValue">以京都市内为中心</div>
+            </div>
+          </div>
+          <a id="emailButton" class="btn btn-contact" href="mailto:Hakurinkyoto@icloud.com" data-i18n="mailBtn">通过邮件咨询</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong class="footer-cn">博麟株式会社</strong><br />
+        <span class="footer-en">HAKURIN</span>
+      </div>
+      <div class="footer-links">
+        <a href="#about" data-i18n="footerAbout">公司介绍</a>
+        <a href="#services" data-i18n="footerServices">服务内容</a>
+        <a href="#company" data-i18n="footerCompany">公司信息</a>
+      </div>
+    </div>
+    <div class="container footer-copy" data-i18n="footer">© 2026 博麟株式会社 All Rights Reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
