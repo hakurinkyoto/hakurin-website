@@ -254,7 +254,7 @@ const properties = [
   }
 ];
 
-let currentLang = "zh";
+let currentLang = "ja";
 
 function render() {
   const t = content[currentLang];
